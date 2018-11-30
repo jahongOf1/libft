@@ -6,7 +6,7 @@
 /*   By: jahong <jahong@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/25 22:54:01 by jahong            #+#    #+#             */
-/*   Updated: 2018/11/30 15:35:03 by jahong           ###   ########.fr       */
+/*   Updated: 2018/11/30 15:39:48 by jahong           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 void	ft_putendl_fd(char const *s, int fd)
 {
-	ft_putstr_fd(s, fd);
-	ft_putchar_fd('\n', fd);
+	ft_putstr_fd(ft_strjoin(s, "\n"), fd);
 }
