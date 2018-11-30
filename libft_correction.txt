@@ -1,0 +1,51 @@
+libft_correction.txt
+
+memset x
+bzero x
+memcpy x
+memccpy x
+memmove
+memcmp x
+strncat x
+strlcat o
+strrchr 
+isascii x
+isprint x
+
+strnew
+memalloc
+strmap
+strmapi
+strsub
+strtrim
+putchar
+putchar fd
+putnrbr
+putnbr fd
+
+rewrite
+
+strstr
+strnstr
+atoi
+itoa
+strsplit
+
+
+protect
+
+strclr
+striter
+striteri
+strnequ
+strneq
+strjoin
+putstr
+putendl
+pustsr fd
+putendl fds
+
+build
+lst function
+bst functions
+other useful works
