@@ -1,8 +1,0 @@
-stdarg.h
-
-va_arg()
-char* - string
-int dic
-void* - pointer, prefix the output into 0x
-unsigned int for oux
-unsigned long to ascii base
