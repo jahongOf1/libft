@@ -16,8 +16,8 @@ void	ft_putendl_fd(char const *s, int fd)
 {
 	char *endl;
 
-	// if (s == NULL || *s == NULL)
-	// 	return ;
-	endl = ft_strjoin(s, "\n");
+	if (s == NULL || *s == NULL)
+		return ;
+	endl = ft_strjoin(s, '\n');
 	ft_putstr_fd(endl, fd);
 }
