@@ -17,4 +17,5 @@ void	ft_putendl(char const *s)
 	// ft_putstr_fd(s, 1);
 	// ft_putstr_fd("\n", 1);
 	ft_putstr_fd(s, 1);
+	ft_putstr_fd("\n", 1);
 }
